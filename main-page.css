@@ -95,6 +95,10 @@ input.search::placeholder {
             gap:.3rem;
             filter:brightness(100%) !important;
         }
+        a {
+            font-size:.3rem;
+            color:black;
+        }
     }
 
     .r2 {
