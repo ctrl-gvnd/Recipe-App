@@ -30,7 +30,8 @@ body {
     position:absolute;  
     padding:1rem;
     margin-top:4rem;
-
+    z-index:2;
+    
     a {
         font-family:inter;
         font-weight:500;
@@ -47,7 +48,7 @@ body {
         gap:.3rem;   
         width:max-content;
         position:relative;
-        z-index:2;
+        z-index:3;
         .arrow {
             width:20%;
         }
