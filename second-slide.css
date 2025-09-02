@@ -29,9 +29,9 @@ body {
 .main {
     position:absolute;  
     padding:1rem;
-    margin-top:4rem;
+    margin-top:3rem;
     z-index:2;
-    
+
     a {
         font-family:inter;
         font-weight:500;
