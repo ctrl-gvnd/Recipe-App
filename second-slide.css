@@ -30,10 +30,29 @@ body {
     position:absolute;  
     padding:1rem;
     margin-top:4rem;
+
+    a {
+        font-family:inter;
+        font-weight:500;
+        font-size:.6rem;
+        text-decoration:none;
+        color:white;
+        background:rgba(255, 255, 255, 0.568);
+        border: white 1px solid;
+        padding:1rem;
+        border-radius:20rem;
+        display:inline-flex;    
+        align-items:center;
+        justify-content:flex-start;
+        width:max-content;
+        .arrow {
+            width:20%;
+        }
+    }
 }
 
 main {
-    img {
+    .food-image {
         position:relative;
         top:10rem;
         width:100%;
@@ -46,4 +65,5 @@ main {
     font-size:.8rem;
     max-width:50vw;
     margin-block:1rem;
+    margin-bottom:2rem; 
 }
