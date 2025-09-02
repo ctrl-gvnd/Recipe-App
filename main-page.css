@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:inter;
+}
+
+.head {
+    color:white;
+    background-color:#EF9651;
+    display:flex;   
+    padding:2rem;
+    gap:2rem;
+    font-size:.7rem;
+    border-bottom-left-radius: 1.3rem;
+    border-bottom-right-radius: 1.3rem;
+    h1,p {
+        margin-block:.3rem;
+    }
+}
