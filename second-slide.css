@@ -46,6 +46,8 @@ body {
         justify-content:flex-start;
         gap:.3rem;   
         width:max-content;
+        position:relative;
+        z-index:2;
         .arrow {
             width:20%;
         }
@@ -57,6 +59,7 @@ main {
         position:relative;
         top:10rem;
         width:100%;
+        z-index:1;
     }
 }
 
