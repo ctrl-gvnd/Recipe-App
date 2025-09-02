@@ -26,27 +26,17 @@ body {
     font-weight:700;
 }
 
-main {
+.main {
+    position:absolute;  
     padding:1rem;
     margin-top:4rem;
+}
+
+main {
     img {
-        width:110%;
-        margin:0 auto;
-    }
-
-    .img1 {
-        /* transform:translatex(30%); */
-        position:absolute;
-        right:-10rem;
-        bottom:20rem;
-       
-
-    }
-
-    .img2 {
-        position:absolute;
-        bottom:3.5rem;
-        left:-8rem;
+        position:relative;
+        top:10rem;
+        width:100%;
     }
 }
 
