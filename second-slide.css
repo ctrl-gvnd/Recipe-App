@@ -37,13 +37,14 @@ body {
         font-size:.6rem;
         text-decoration:none;
         color:white;
-        background:rgba(255, 255, 255, 0.568);
+        background-color:#EF9651;
         border: white 1px solid;
-        padding:1rem;
+        padding:.8rem;
         border-radius:20rem;
         display:inline-flex;    
         align-items:center;
         justify-content:flex-start;
+        gap:.3rem;   
         width:max-content;
         .arrow {
             width:20%;
