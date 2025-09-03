@@ -83,6 +83,11 @@ input.search::placeholder {
         padding:1.3rem;
         color:white;
         gap:.4rem;
+        .anchor {
+            text-decoration: none;
+            color: white;
+            /* visibility: hidden; */
+        }
         img {
             width:.8rem;
         }
@@ -94,10 +99,6 @@ input.search::placeholder {
             align-items:center;
             gap:.3rem;
             filter:brightness(100%) !important;
-        }
-        a {
-            font-size:.3rem;
-            color:black;
         }
     }
 
