@@ -86,7 +86,6 @@ input.search::placeholder {
         .anchor {
             text-decoration: none;
             color: white;
-            /* visibility: hidden; */
         }
         img {
             width:.8rem;

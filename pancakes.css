@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+.wrap {
+    background-color: #E8762A;
+}
+
+header {
+    .recipe-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 20rem;
+        background: linear-gradient(rgba(0,0,0,0.5), #E8762A), url("https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=1980&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+        padding: 1.2rem;
+        color: white;
+        h1 {
+            font-size: 3.2rem;
+        }
+        p {
+            font-size: .7rem;
+        }
+    }
+}
+
+main {
+    background-color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 2rem;
+
+    ul {
+        font-size: .7rem;
+        padding-left: 2rem;
+        margin-block: 1rem;
+    }
+    
+    a {
+        margin-top: 5rem;
+        padding-inline: 2rem;
+        padding-block: 1rem;
+        background-color: #E8762A;
+        text-decoration: none;
+        color: white;
+        border-radius: 1rem;
+        display: block;
+        font-weight: 700;
+    }
+}
