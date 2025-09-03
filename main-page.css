@@ -44,7 +44,7 @@ input.search::placeholder {
     margin:0 auto;
     display:flex;
     justify-content:space-between;
-    gap:0.7rem;
+    gap:0.5rem;
     max-width:90vw;
 
     a {
